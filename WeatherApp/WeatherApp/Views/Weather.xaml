@@ -10,6 +10,12 @@
             <RowDefinition Height="*" />
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
+        <Grid RowSpacing="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+        </Grid>
         <Grid Grid.Row="1" HeightRequest="160" ColumnSpacing="0">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
@@ -24,7 +30,7 @@
                     <Image Source="cloud.png" Margin="0,20" WidthRequest="30"/>
                     <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
                         <Label Text="22" TextColor="White" FontSize="23" HorizontalTextAlignment="Center"/>
-                        <Label Text="*" TextColor="White" FontSize="23" HorizontalTextAlignment="Center"/>
+                        <Label Text="⁰C" TextColor="White" FontSize="23" HorizontalTextAlignment="Center"/>
                     </StackLayout>
                 </StackLayout>
             </Grid>
@@ -32,10 +38,10 @@
                 <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
                     <Label Text="Monday" TextColor="White" FontSize="13" HorizontalTextAlignment="Center"/>
                     <Label Margin="0,-5,0,0" Text="02 Dec" TextColor="White"/>
-                    <Image Source="images\cloud.png" Margin="0,20" WidthRequest="30"/>
+                    <Image Source="cloud.png" Margin="0,20" WidthRequest="30"/>
                     <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
                         <Label Text="17" TextColor="White" FontSize="23" HorizontalTextAlignment="Center"/>
-                        <Label Text="*" TextColor="White" FontSize="23" HorizontalTextAlignment="Center"/>
+                        <Label Text="⁰C" TextColor="White" FontSize="23" HorizontalTextAlignment="Center"/>
                     </StackLayout>
                 </StackLayout>
             </Grid>
@@ -46,7 +52,7 @@
                     <Image Source="cloud.png" Margin="0,20" WidthRequest="30"/>
                     <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
                         <Label Text="15" TextColor="White" FontSize="23" HorizontalTextAlignment="Center"/>
-                        <Label Text="*" TextColor="White" FontSize="23" HorizontalTextAlignment="Center"/>
+                        <Label Text="⁰C" TextColor="White" FontSize="23" HorizontalTextAlignment="Center"/>
                     </StackLayout>
                 </StackLayout>
             </Grid>
@@ -54,10 +60,10 @@
                 <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
                     <Label Text="Wednesday" TextColor="White" FontSize="13" HorizontalTextAlignment="Center"/>
                     <Label Margin="0,-5,0,0" Text="04 Dec" TextColor="White"/>
-                    <Image Source=" \images\cloud.png" Margin="0,20" WidthRequest="30"/>
+                    <Image Source=" cloud.png" Margin="0,20" WidthRequest="30"/>
                     <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
                         <Label Text="5" TextColor="White" FontSize="23" HorizontalTextAlignment="Center"/>
-                        <Label Text="*" TextColor="White" FontSize="23" HorizontalTextAlignment="Center"/>
+                        <Label Text="⁰C" TextColor="White" FontSize="23" HorizontalTextAlignment="Center"/>
                     </StackLayout>
                 </StackLayout>
             </Grid>
